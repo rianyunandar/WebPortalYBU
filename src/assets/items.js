@@ -30,7 +30,7 @@ const items = [
     "title": "LMS Budi Utomo",
     "subtitle": "Mulai Belajar Mandiri, Tingkatkan Potensi",
     "image": lmsbudut,
-    "link": "https://www.budiutomo.co/" //your personal website or portfolio  link
+    "link": "https://lms.budiutomo.sch.id/" //your personal website or portfolio  link
 },
 {
     "title": "Instagram",
