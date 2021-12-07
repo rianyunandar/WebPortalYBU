@@ -5,8 +5,11 @@ function CountUP() {
   return (
     <div>
       <h1 class="CountText">
-        <span><CountUp start={0} end={6} duration={3}/> </span>{" "} Jurusan <CountUp start={0}  end={1050} duration={3} /> Murid{" "}
-        <span> <CountUp start={0}  end={9000} duration={3}/> Alumni</span>
+          <CountUp start={0} end={6} duration={3} />{" "}
+        Jurusan <CountUp start={0} end={1050} duration={3} /> Murid{" "}
+      </h1>
+      <h1 class="CountText">
+        <CountUp start={0} end={9000} duration={3} /> Alumni
       </h1>
     </div>
   );
