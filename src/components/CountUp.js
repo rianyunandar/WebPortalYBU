@@ -9,7 +9,7 @@ function CountUP() {
         <CountUp start={0} end={1050} duration={3} /> Murid{" "}
       </h1>
       <h1 class="CountText">
-        &gt <CountUp start={0} end={25000} duration={3} /> Alumni
+        {">"} <CountUp start={0} end={25000} duration={3} /> Alumni
       </h1>
     </div>
   );
