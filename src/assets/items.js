@@ -1,18 +1,19 @@
-import website from '../assets/website.png'
-import yayasan from '../assets/Yayasan.png'
+// import website from '../assets/website.png'
+import PPDB from '../assets/PPDB.svg'
 import smk1 from '../assets/SMK1.png'
 import smk2 from '../assets/SMK2.png'
-import lmsbudut from '../assets/LMSBUDUT.png'
+// import lmsbudut from '../assets/LMSBUDUT.png'
 import instagram from '../assets/instagram.png'
 import facebook from '../assets/Facebook.png'
 import youtube from '../assets/youtube.jpeg'
+import profesi from '../assets/profesi.svg'
 
 const items = [
 {
-    "title": "Yayasan Budi Utomo",
-    "subtitle": "Akses Ke Yayasan Budi Utomo Way Jepara",
-    "image": yayasan,
-    "link": "https://www.budiutomo.co/" //your personal website or portfolio  link
+    "title": "Formulir Pendaftaran Siswa Baru",
+    "subtitle": "Akses Ke Formulir pendaftaran Siswa Baru SMK Budi Utomo Way Jepara",
+    "image": PPDB,
+    "link": "https://daftar.budutwj.com/daftar" //your personal website or portfolio  link
 },
 {
     "title": "SMK 1 Budi Utomo",
@@ -26,12 +27,12 @@ const items = [
     "image": smk2,
     "link": "https://smkbudiutomo2wj.sch.id/" //your personal website or portfolio  link
 },
-{
-    "title": "LMS Budi Utomo",
-    "subtitle": "Mulai Belajar Mandiri, Tingkatkan Potensi",
-    "image": lmsbudut,
-    "link": "https://lms.budiutomo.sch.id/" //your personal website or portfolio  link
-},
+// {
+//     "title": "LMS Budi Utomo",
+//     "subtitle": "Mulai Belajar Mandiri, Tingkatkan Potensi",
+//     "image": lmsbudut,
+//     "link": "https://lms.budiutomo.sch.id/" //your personal website or portfolio  link
+// },
 {
     "title": "Instagram",
     "subtitle": "Follow untuk Akses Event & Info Menarik Dari SMK Budi Utomo Way Jepara 😉",
@@ -53,8 +54,8 @@ const items = [
 {
     "title": "Profesi.com",
     "subtitle": "Cari Lowongan Pekerjaan",
-    "image": website,
-    "link": "https://www.profesi.com/" //your personal website or portfolio  link
+    "image": profesi,
+    "link": "https://profesi.com/" //your personal website or portfolio  link
 },
 ]
 

@@ -5,12 +5,14 @@ import "../css/normalize.css";
 import "../css/components.css";
 
 function Footer() {
+  const d = new Date();
+  let year = d.getFullYear();
   return (
     <div className="Footer container">
       <p>
         {" "}
         <a href={"https://www.budiutomo.co/"}>Yayasan Budi Utomo Way Jepara </a>
-        <span> / </span>2021
+        <span> / </span> {year}
       </p>
     </div>
   );
